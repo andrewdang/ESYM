@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shop</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag fingerprinted_asset('application'), media: 'all' %>
+  </head>
+  <body>
+    <%= yield %>
+    <%= javascript_include_tag fingerprinted_asset('application'), async: !Rails.env.development? %>
+  </body>
+</html>

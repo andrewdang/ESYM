@@ -7,11 +7,11 @@ class Hero extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="title">
-              Buy Something
+              ESYM
             </h1>
             <br/>
             <h2 className="subtitle">
-              <button className="button is-primary is-large">Shop</button>
+              <button className="button is-primary is-large">buy something</button>
             </h2>
           </div>
         </div>

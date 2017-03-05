@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
+
 
 class NavBar extends Component {
   render() {
@@ -7,11 +9,13 @@ class NavBar extends Component {
         <p className="level-item has-text-centered">
           <a className="link is-info">MENU</a>
         </p>
+
         <p className="level-item has-text-centered">
-          <a className="link is-info">SEARCH</a>
+          <Link to='/' className="link is-info">HOME</Link>
         </p>
+
         <p className="level-item has-text-centered">
-          <a className="link is-info">CART</a>
+          <Link to='/cart' className="link is-info">CART</Link>
         </p>
       </nav>
     )
